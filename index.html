@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Testimonials Grid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            barlow: ['"Barlow Semi Condensed"', 'sans-serif']
+          },
+          colors: {
+            purple50: 'hsl(260, 100%, 95%)',
+            purple300: 'hsl(264, 82%, 80%)',
+            purple500: 'hsl(263, 55%, 52%)',
+            grey100: 'hsl(214, 17%, 92%)',
+            grey200: 'hsl(0, 0%, 81%)',
+            grey400: 'hsl(224, 10%, 45%)',
+            grey500: 'hsl(217, 19%, 35%)',
+            darkblue: 'hsl(219, 29%, 14%)',
+            black: 'hsl(0, 0%, 7%)'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-grey100 font-barlow text-[13px] flex items-center justify-center min-h-screen px-4 py-10">
+
+  <div class="max-w-6xl w-full grid gap-6
+              grid-cols-1
+              md:grid-cols-2
+              lg:grid-cols-4">
+
+    <!-- Daniel -->
+    <div class="relative bg-purple500 text-white p-6 rounded-xl shadow-lg
+                md:col-span-2">
+
+      <!-- SVG -->
+      <img src="./assets//bg-pattern-quotation.svg"
+           class="absolute top-4 right-6 w-20 opacity-50 pointer-events-none">
+
+      <div class="flex items-center gap-3 mb-4">
+        <img src="./assets/image-daniel.jpg"
+             class="w-8 h-8 rounded-full border-2 border-purple300">
+        <div>
+          <h4 class="font-semibold">Daniel Clifford</h4>
+          <p class="text-xs opacity-70">Verified Graduate</p>
+        </div>
+      </div>
+
+      <h2 class="font-semibold text-lg leading-snug mb-4 relative z-10">
+        I received a job offer mid-course, and the subjects I learned were current, if not more so, in the company I joined. I honestly feel I got every penny’s worth.
+      </h2>
+
+      <p class="opacity-80 relative z-10">
+        “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best – and most grueling – time of my life. Since completing the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+      </p>
+    </div>
+
+    <!-- Jonathan Walters -->
+    <div class="bg-grey500 text-white p-6 rounded-xl shadow-lg">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="./assets/image-jonathan.jpg"
+             class="w-8 h-8 rounded-full">
+        <div>
+          <h4 class="font-semibold">Jonathan Walters</h4>
+          <p class="text-xs opacity-70">Verified Graduate</p>
+        </div>
+      </div>
+
+      <h2 class="font-semibold text-lg mb-4">
+        The team was very supportive and kept me motivated
+      </h2>
+
+      <p class="opacity-70">
+        “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer for a big company. This was one of the best investments I’ve made in myself. ”
+      </p>
+    </div>
+
+    <!-- Kira  -->
+    <div class="bg-white p-6 rounded-xl shadow-lg
+                lg:row-span-2 order-5 lg:order-none">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="./assets/image-kira.jpg"
+             class="w-8 h-8 rounded-full">
+        <div>
+          <h4 class="font-semibold text-grey500">Kira Whittle</h4>
+          <p class="text-xs text-grey400">Verified Graduate</p>
+        </div>
+      </div>
+
+      <h2 class="font-semibold text-lg text-grey500 mb-4">
+        Such a life-changing experience. Highly recommended!
+      </h2>
+
+      <p class="text-grey400">
+        “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from professionals who can help me learn programming step by step. I was encouraged to enroll by a former student of theirs who can only say wonderful things about the program. The entire curriculum and staff did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial could ever have. In fact, I’ve often referred to it during interviews as an example of my development experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers. 100% recommend! ”
+      </p>
+    </div>
+
+    <!-- Jeanette Harmon -->
+    <div class="bg-white p-6 rounded-xl shadow-lg">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="./assets/image-jeanette.jpg"
+             class="w-8 h-8 rounded-full">
+        <div>
+          <h4 class="font-semibold text-grey500">Jeanette Harmon</h4>
+          <p class="text-xs text-grey400">Verified Graduate</p>
+        </div>
+      </div>
+
+      <h2 class="font-semibold text-lg text-grey500 mb-4">
+        An overall wonderful and rewarding experience
+      </h2>
+
+      <p class="text-grey400">
+        “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”
+      </p>
+    </div>
+
+    <!-- Patrick Abrams -->
+    <div class="bg-darkblue text-white p-6 rounded-xl shadow-lg
+                md:col-span-2 order-4 lg:order-none">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="./assets/image-patrick.jpg"
+             class="w-8 h-8 rounded-full border-2 border-purple300">
+        <div>
+          <h4 class="font-semibold">Patrick Abrams</h4>
+          <p class="text-xs opacity-70">Verified Graduate</p>
+        </div>
+      </div>
+
+      <h2 class="font-semibold text-lg mb-4">
+        Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and learning from their experiences was easy.
+      </h2>
+
+      <p class="opacity-70">
+        “ The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people. ”
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
