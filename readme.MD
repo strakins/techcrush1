@@ -8,7 +8,7 @@ A responsive testimonial grid layout built with **HTML** and **Tailwind CSS**,
 
 ## 🚀 Features
 
-(https://strakins.github.io/techcrush1/) [View the Project]
+[View the Project here](https://strakins.github.io/techcrush1/)
 
 * ✅ Fully responsive (Mobile, Tablet, Desktop)
 * ✅ CSS Grid-based layout
